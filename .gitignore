@@ -1,3 +1,6 @@
+# Ignoring Mac osx default files
+.DS_Store
+
 # Logs
 logs
 *.log
