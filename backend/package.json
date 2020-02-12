@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend API for menu.com.vc challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rodrigocnascimento/menu-project.git"
+  },
+  "author": "rodrigo nascimento <rodrigoc@pm.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigocnascimento/menu-project/issues"
+  },
+  "homepage": "https://github.com/rodrigocnascimento/menu-project#readme"
+}
