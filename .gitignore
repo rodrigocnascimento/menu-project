@@ -1,3 +1,6 @@
+# specific ignore
+.wakatime*
+
 # Logs
 logs
 *.log
