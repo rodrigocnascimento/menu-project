@@ -1,8 +1,6 @@
 const express = require("express")
 const router = express.Router()
 
-router.get("/", function(req, res, next) {
-    res.send("API is working properly")
-})
+router.get("/", (req, res, next) => res.send("server is listen you crazy nerd :D"))
 
 module.exports = router
