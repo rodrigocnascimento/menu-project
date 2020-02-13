@@ -12,6 +12,8 @@ app.use(express.urlencoded({ extended: false }))
 
 const testRoute = require("./routes/test")
 
+app.all("/", (req, res) => res.send(`default route`))
+
 app.use("/test", testRoute)
 
-app.listen(SERVER_PORT, () => console.log(`Server listening on SERVER_port ${SERVER_PORT}!`))
+app.listen(SERVER_PORT, () => console.log(`Server listening on port ${SERVER_PORT}!`))
