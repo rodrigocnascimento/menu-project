@@ -1,5 +1,6 @@
 # Ignoring Mac osx default files
 .DS_Store
+.wakatime*
 
 # Logs
 logs
