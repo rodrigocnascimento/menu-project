@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+# database layer  
+  db:
+    image: mysql:5
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./backend/database/storage:/var/lib/mysql:rw" 
+      - "./backend/database:/docker-entrypoint-initdb.d/:rw" 
+    environment:
+      - MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+# backend layer
+  backend:
+    build:
+      context: ./backend
+    expose: 
+      - "3001"
+    ports:
+      - "3420:3001"
+    volumes:
+      - ./backend/src:/home/backend/src
+    environment:
+      - DB_HOST=${MYSQL_HOST}
+      - DB_NAME=${MYSQL_DATABASE}
+      - DB_USER=${MYSQL_USER}
+      - DB_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    depends_on:
+      - db
+# frontend layer      
+  frontend:
+      build:
+        context: ./frontend
+      expose: 
+        - "3000"
+      ports:
+        - "80:3000"
+      volumes:
+        - ./frontend/src:/home/frontend/src
