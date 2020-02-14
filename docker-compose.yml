@@ -27,6 +27,9 @@ services:
       - "3420:3001"
     volumes:
       - ./backend/src:/home/backend/src
+      - ./backend/config:/home/backend/config
+      - ./backend/database/migrations:/home/backend/database/migrations
+      - ./backend/database/seeders:/home/backend/database/seeders
     environment:
       - DB_HOST=${MYSQL_HOST}
       - DB_NAME=${MYSQL_DATABASE}
