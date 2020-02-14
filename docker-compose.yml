@@ -11,12 +11,12 @@ services:
       - "3306:3306"
     volumes:
       - "./backend/database/mysql:/var/lib/mysql:rw" 
-      - "./backend/database:/docker-entrypoint-initdb.d/:rw" 
+      - "./backend/database:/docker-entrypoint-initdb.d/:rw"
     environment:
       - MYSQL_ROOT_PASSWORD
       - MYSQL_DATABASE
       - MYSQL_USER
-      - MYSQL_PASSWORD
+      - MYSQL_PASSWORD 
 # backend layer
   backend:
     build:
