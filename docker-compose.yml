@@ -10,7 +10,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - "./backend/database/storage:/var/lib/mysql:rw" 
+      - "./backend/database/mysql:/var/lib/mysql:rw" 
       - "./backend/database:/docker-entrypoint-initdb.d/:rw" 
     environment:
       - MYSQL_ROOT_PASSWORD
