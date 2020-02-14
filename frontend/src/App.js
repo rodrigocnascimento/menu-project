@@ -7,7 +7,7 @@ function App(props) {
   const { env } = props
   
   useEffect(() => {
-    fetch(`${env.URI}/test`)
+    fetch(`${env.URI}/clients`)
       .then(async response => {
         setTestApiResponse(await response.text())
       })
