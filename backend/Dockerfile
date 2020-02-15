@@ -2,11 +2,13 @@ FROM node:12-alpine
 
 WORKDIR /home/backend
 
-# Installing dependencies
+EXPOSE 3001
+
 COPY ./yarn.lock .
 COPY ./package.json .
 COPY ./.sequelizerc .
 
+# dockerize https://github.com/jwilder/dockerize
 ENV DOCKERIZE_VERSION v0.5.0
 RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
     && tar -C /usr/local/bin -xzvf dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
@@ -15,12 +17,9 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 RUN yarn install && \
     yarn cache clean --force
 
-ENV NODE_ENV="development"
-
 COPY . .
 
-# Expose ports 
-EXPOSE 3001
+RUN chmod +x ./start.sh
 
-# Start the app
-CMD dockerize -wait tcp://db:3306 -timeout 1m && npx sequelize db:migrate && npm start
+# dockerize Wait for other services to be available using TCP, HTTP(S), unix before starting the main process.
+CMD dockerize -wait tcp://db:3306 -timeout 1m ./start.sh

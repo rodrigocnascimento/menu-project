@@ -3,44 +3,41 @@ version: '3'
 services:
 # database layer  
   db:
+    build:
+      context: ./database
     image: mysql:5
     restart: always
+    env_file: 
+      - ./database/.env
     expose:
       - "3306"
     ports:
       - "3306:3306"
     volumes:
-      - "./backend/database/mysql:/var/lib/mysql:rw" 
-      - "./backend/database:/docker-entrypoint-initdb.d/:rw"
-    environment:
-      - MYSQL_ROOT_PASSWORD
-      - MYSQL_DATABASE
-      - MYSQL_USER
-      - MYSQL_PASSWORD 
+      - "./database/mysql:/var/lib/mysql:rw" 
 # backend layer
   backend:
     build:
       context: ./backend
+    env_file: 
+      - ./backend/.env
     expose: 
       - "3001"
     ports:
       - "3420:3001"
     volumes:
       - ./backend/src:/home/backend/src
-      - ./backend/config:/home/backend/config
-      - ./backend/database/migrations:/home/backend/database/migrations
-      - ./backend/database/seeders:/home/backend/database/seeders
-    environment:
-      - DB_HOST=${MYSQL_HOST}
-      - DB_NAME=${MYSQL_DATABASE}
-      - DB_USER=${MYSQL_USER}
-      - DB_PASSWORD=${MYSQL_PASSWORD}
+      - ./backend/sequelize/config:/home/backend/sequelize/config
+      - ./backend/sequelize/migrations:/home/backend/sequelize/migrations
+      - ./backend/sequelize/seeders:/home/backend/sequelize/seeders
     depends_on:
       - db
 # frontend layer      
   frontend:
       build:
         context: ./frontend
+      env_file: 
+        - ./frontend/.env
       expose: 
         - "3000"
       ports:
