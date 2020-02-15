@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './css/index.css';
+import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 const { REACT_APP_API_URI } = process.env
 
-ReactDOM.render(<App env={{ URI: REACT_APP_API_URI }} />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <App env={{ URI: REACT_APP_API_URI }} />
+    </BrowserRouter>,
+    document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -1,27 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  
+} from 'react-router-dom';
+import Main from './layout/Main.js';
 
 function App(props) {
-  const [testApiResponse, setTestApiResponse] = useState("")
-  const { env } = props
-  
-  useEffect(() => {
-    fetch(`${env.URI}/cliente`)
-      .then(async response => {
-        setTestApiResponse(await response.text())
-      })
-      .catch(err => err);
-  });
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="App-intro">{testApiResponse}</p>
-      </header>
-    </div>
-  );
+  return <Main {...props} />
 }
 
 export default App;
