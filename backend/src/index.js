@@ -10,11 +10,11 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-const clientRoute = require("./routes/clients")
+const customerRoute = require("./routes/customers")
 const ordersRoute = require("./routes/orders")
 const nerdRoute = require("./routes/nerd")
 
-app.use("/cliente", clientRoute)
+app.use("/cliente", customerRoute)
 app.use("/pedido", ordersRoute)
 app.use("/nerdStats", nerdRoute)
 
