@@ -1,10 +1,10 @@
 const express = require("express")
 const router = express.Router()
-const { Customers } = require("../models")
+const { Customer } = require("../models")
 
 router.get("/", async (req, res, next) => {
     try {
-        const customers = await Customers.findAll()
+        const customers = await Customer.findAll()
 
         res.send({ customers })
     } catch (error) {
@@ -16,7 +16,7 @@ router.get("/", async (req, res, next) => {
 router.get("/:id", async (req, res, next) => {
     try {
         const id = req.params.id
-        const customer = await Customers.findAll({
+        const customer = await Customer.findAll({
             where: {
                 id
             }
@@ -35,7 +35,7 @@ router.get("/:id", async (req, res, next) => {
 router.post("/", async (req, res, next) => {
     try {
         const { body } = req
-        const customer = await Customers.create(body)
+        const customer = await Customer.create(body)
 
         return res.status(200).send({ customer })
     } catch (error) {
@@ -57,13 +57,13 @@ router.put("/:id", async (req, res, next) => {
             }
         }
         
-        const [result] = await Customers.update(body, predicate)
+        const [result] = await Customer.update(body, predicate)
         
         if (!result) {
             return res.status(404).send({ customer: [], message: "Cliente não encontrado!" })
         }
 
-        let update = await Customers.findAll(predicate)
+        let update = await Customer.findAll(predicate)
 
         return res.status(200).send({ customer: update })
     } catch (error) {
@@ -76,7 +76,7 @@ router.put("/:id", async (req, res, next) => {
 router.delete("/:id", async (req, res, next) => {
     try {
         const id = req.params.id
-        const result = await Customers.destroy({
+        const result = await Customer.destroy({
             where: {
                 id
             }
