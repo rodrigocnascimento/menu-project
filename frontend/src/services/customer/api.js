@@ -9,6 +9,8 @@ function Customer() {
         }
     }
 
+    this.baseUri = `${this.uri}/client`
+
     this.response = async function (response) {
         const { status, statusText } = response;
         return { status, statusText, ...await response.json() };
@@ -20,13 +22,13 @@ function Customer() {
 }
 
 Customer.prototype.getAllCustomers = async function () {
-    const response = await fetch(`${this.uri}/cliente`, this.fetchOptions);
+    const response = await fetch(`${this.baseUri}`, this.fetchOptions);
 
     return await this.response(response);
 }
 
 Customer.prototype.getCustomer = async function (customerId) {
-    const response = await fetch(`${this.uri}/cliente/${customerId}`);
+    const response = await fetch(`${this.baseUri}/${customerId}`);
 
     return await this.response(response);
 }
@@ -38,7 +40,7 @@ Customer.prototype.createCustomer = async function (customer) {
         method: "POST",
         body: JSON.stringify(customer)
     }
-    const response = await fetch(`${this.uri}/cliente`, this.mergeOptions(options));
+    const response = await fetch(`${this.baseUri}`, this.mergeOptions(options));
 
     return await this.response(response);
 }
@@ -48,7 +50,7 @@ Customer.prototype.updateCustomer = async function (customer) {
         method: "PUT",
         body: JSON.stringify(customer)
     }
-    const response = await fetch(`${this.uri}/cliente/${customer.id}`, this.mergeOptions(options));
+    const response = await fetch(`${this.baseUri}/${customer.id}`, this.mergeOptions(options));
 
     return await this.response(response);
 }
@@ -57,9 +59,9 @@ Customer.prototype.deleteCustomer = async function (customerId) {
     let options = {
         method: "DELETE"
     }
-    const response = await fetch(`${this.uri}/cliente/${customerId}`, this.mergeOptions(options));
+    const response = await fetch(`${this.baseUri}/${customerId}`, this.mergeOptions(options));
 
     return await this.response(response);
 }
 
-export default Customer
+export default Customer;
