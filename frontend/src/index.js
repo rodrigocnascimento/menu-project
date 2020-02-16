@@ -5,11 +5,11 @@ import './css/index.css';
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-const { REACT_APP_API_URI } = process.env
+// const { EnvironmentProvider } = EnvironmentContext;
 
 ReactDOM.render(
     <BrowserRouter>
-        <App env={{ URI: REACT_APP_API_URI }} />
+        <App />
     </BrowserRouter>,
     document.getElementById('root')
 );
