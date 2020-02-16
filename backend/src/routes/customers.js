@@ -22,7 +22,7 @@ router.get("/:id", async (req, res, next) => {
             }
         })
         if (!customer.length) {
-            return res.status(404).send({ customer, message: "Cliente não encontrado!" })    
+            return res.status(404).send({ customer, message: "Cliente não encontrado!" })
         }
 
         return res.status(200).send({ customer })
@@ -56,9 +56,9 @@ router.put("/:id", async (req, res, next) => {
                 id
             }
         }
-        
+
         const [result] = await Customer.update(body, predicate)
-        
+
         if (!result) {
             return res.status(404).send({ customer: [], message: "Cliente não encontrado!" })
         }
