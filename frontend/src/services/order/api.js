@@ -34,7 +34,11 @@ Order.prototype.getOrder = async function (orderId) {
 }
 
 Order.prototype.createOrder = async function (order) {
+    order.CustomerId = order.customerId;
+    order.value = order.orderValue;
     delete order.id;
+    delete order.customerId;
+    delete order.orderValue;
 
     let options = {
         method: "POST",
@@ -47,7 +51,9 @@ Order.prototype.createOrder = async function (order) {
 
 Order.prototype.updateOrder = async function (order) {
     order.value = order.orderValue;
+    order.CustomerId = order.customerId;
     delete order.orderValue;
+    delete order.customerId;
     
     let options = {
         method: "PUT",

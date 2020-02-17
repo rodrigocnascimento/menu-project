@@ -4,7 +4,6 @@ const { Order, Customer } = require("../models")
 
 router.get("/", async (req, res, next) => {
     try {
-        console.log(`aqui`)
         const predicate = {
             include: [{
                 model: Customer

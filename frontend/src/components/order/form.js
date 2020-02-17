@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Icons from "../svg-icons";
 
-function OrderForm({ edition, setEditing, currentOrder, create, update }) {
+function OrderForm({ edition, setEditing, currentOrder, customersList, create, update }) {
     const [newOrder, setNewOrder] = useState(false);
     const [id, setId] = useState("");
     const [customerId, setCustomerId] = useState("");
@@ -12,7 +12,6 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
 
     useEffect(() => {
         const { id, CustomerId: customerId, status, value: orderValue, category, location } = currentOrder;
-        console.log(`currentOrder`, currentOrder)
         setId(id);
         setCustomerId(customerId);
         setStatus(status);
@@ -45,7 +44,6 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
     }
 
     function handleInputChange(e) {
-        console.log(e.target.name, e.target.value)
         if (e.target.name === "orderStatus") {
             setStatus(e.target.value);
         }
@@ -60,6 +58,9 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
 
         if (e.target.name === "orderLocation") {
             setLocation(e.target.value);
+        }
+        if (e.target.name === "orderCustomer") {
+            setCustomerId(e.target.value);
         }
     }
 
@@ -89,6 +90,28 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
                     className="w-full max-w-sm">
                     <div className="md:flex md:items-center mb-6">
                         <div className="md:w-1/3">
+                            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="orerCategory">
+                                Cliente
+                            </label>
+                        </div>
+                        <div className="md:w-2/3">
+                            <select
+                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                id="orderCustomer"
+                                name="orderCustomer"
+                                value={customerId}
+                                onChange={handleInputChange}
+                            >
+                                <option key={0} value={""}>Selecione</option>
+                                {customersList.map(customer => {
+                                    const { customerId, customerName } = customer;
+                                    return <option key={customerId} value={customerId}>{customerName}</option>
+                                })}
+                            </select>
+                        </div>
+                    </div>
+                    <div className="md:flex md:items-center mb-6">
+                        <div className="md:w-1/3">
                             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="orderValue">
                                 Value
                             </label>
@@ -112,13 +135,14 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
                             </label>
                         </div>
                         <div className="md:w-2/3">
-                        <select 
-                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                            <select
+                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="orderCategory"
                                 name="orderCategory"
                                 value={category}
                                 onChange={handleInputChange}
                             >
+                                <option key={0} value={""}>Selecione</option>
                                 <option value="Merceria">Merceria</option>
                                 <option value="Frios">Frios</option>
                                 <option value="Bebidas">Bebidas</option>
@@ -135,13 +159,14 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
                             </label>
                         </div>
                         <div className="md:w-2/3">
-                            <select 
-                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                            <select
+                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="orderLocation"
                                 name="orderLocation"
                                 value={location}
                                 onChange={handleInputChange}
                             >
+                                <option key={0} value={""}>Selecione</option>
                                 <option value="RJ">RJ</option>
                                 <option value="SP">SP</option>
                                 <option value="MG">MG</option>
@@ -156,15 +181,17 @@ function OrderForm({ edition, setEditing, currentOrder, create, update }) {
                             </label>
                         </div>
                         <div className="md:w-2/3">
-                        <select 
-                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                            <select
+                                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="orderStatus"
                                 name="orderStatus"
                                 value={status}
                                 onChange={handleInputChange}
                             >
-                                <option value="Ativo">Ativo</option>
-                                <option value="Inativo">Inativo</option>
+                                <option key={0} value={""}>Selecione</option>
+                                <option value="Novo">Novo</option>
+                                <option value="Pendente">Pendente</option>
+                                <option value="Entregue">Entregue</option>
                             </select>
                         </div>
                     </div>

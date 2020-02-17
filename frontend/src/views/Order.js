@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { useToasts } from "react-toast-notifications";
 import OrderAPI from "../services/order/api";
+import CustomerAPI from "../services/customer/api";
 import OrderForm from "../components/order/form";
 import OrderMasterDetail from "../components/order/detail";
 
@@ -11,9 +12,10 @@ function Order() {
 
     const [orders, setOrders] = useState([]);
     const [edition, setEditing] = useState(false);
+    const [customersList, setCustomerList] = useState("");
     const [currentOrder, setCurrentOrder] = useState({ 
         id: null, 
-        CustomerId: null, 
+        customerId: null, 
         status: "", 
         value: "", 
         category: "", 
@@ -21,11 +23,26 @@ function Order() {
     });
 
     const Order = new OrderAPI();
+    const Customer = new CustomerAPI();
 
     async function fecthAllOrders() {
         const { orders } = await Order.getAllOrders();
         setOrders(orders);
     }
+
+    async function fecthCustomersList() {
+        const { customers } = await Customer.getAllCustomers();
+
+        let customerList = customers.map(customer=> {
+            return {
+                customerId: customer.id,
+                customerName: customer.name
+            }
+        })
+
+        setCustomerList(customerList);
+    }
+
 
     async function deletion(orderId) {
         const { status, message } = await Order.deleteCustomer(orderId);
@@ -56,7 +73,7 @@ function Order() {
         if (status !== 200) {
             addToast(message, { appearance: "error" });
         } else {
-            addToast(`Pedido ${order.id} criado com sucesso, para o cliente: ${order.Customer.name}`, { appearance: "success" });
+            addToast(`Pedido ${order.id} criado com sucesso`, { appearance: "success" });
             fecthAllOrders();
         }
 
@@ -78,6 +95,7 @@ function Order() {
     }
 
     useEffect(() => {
+        fecthCustomersList();
         fecthAllOrders();
     }, []);
 
@@ -87,6 +105,7 @@ function Order() {
                 <p className="text-2xl">Pedidos</p>
             </div>
             <OrderForm
+                customersList={customersList}
                 edition={edition}
                 setEditing={setEditing}
                 currentOrder={currentOrder}

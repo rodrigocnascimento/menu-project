@@ -22,11 +22,11 @@ function Dashboard() {
 
     return (
         <div className="p-3">
-            <div class="flex mb-4">
-                <div class="w-1/2">
+            <div className="flex mb-4">
+                <div className="w-1/2">
                     <SalesPerformance data={orders} />
                 </div>
-                <div class="w-1/2">
+                <div className="w-1/2">
                     <StatusOrder data={orders} />
                 </div>
             </div>
