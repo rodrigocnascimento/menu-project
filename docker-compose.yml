@@ -14,7 +14,9 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - "./database/mysql:/var/lib/mysql:rw" 
+      - "./database/mysql:/var/lib/mysql:rw"
+      - ./database/a-customers-seeds.sql:/docker-entrypoint-initdb.d/a-customers-seeds.sql
+      - ./database/b-orders-seeds.sql:/docker-entrypoint-initdb.d/b-orders-seeds.sql
 # backend layer
   backend:
     build:
