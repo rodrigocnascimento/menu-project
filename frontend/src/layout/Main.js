@@ -4,9 +4,11 @@ import {
     Switch,
     Route,
 } from 'react-router-dom';
+import { ToastProvider } from 'react-toast-notifications';
 import Menu from "../components/navigation";
-import Dashboard from "../pages/Dashboard";
-import Customer from "../pages/Customer";
+import Dashboard from "../views/Dashboard";
+import Customer from "../views/Customer";
+import Order from "../views/Order";
 import menuLogo from "../images/menu.com.vc.png";
 
 function Main() {
@@ -21,15 +23,20 @@ function Main() {
                         <Menu />
                     </nav>
                 </header>
-                <Switch>
-                    <Route exact path="/">
-                        <Dashboard />
-                    </Route>
+                <ToastProvider>
+                    <Switch>
+                        <Route exact path="/">
+                            <Dashboard />
+                        </Route>
+                        <Route exact path="/customer">
+                            <Customer />
+                        </Route>
 
-                    <Route exact path="/customer">
-                        <Customer />
-                    </Route>
-                </Switch>
+                        <Route exact path="/order">
+                            <Order />
+                        </Route>
+                    </Switch>
+                </ToastProvider>
             </Router>
         </>
     );
