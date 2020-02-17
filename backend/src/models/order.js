@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
   const Order = sequelize.define("Order", {
     status: {
       type: DataTypes.ENUM,
-      values: ["Ativo","Inativo","Deletado"]
+      values: ["Novo","Entregue","Pendente"]
     },
     value: {
       type: DataTypes.DOUBLE

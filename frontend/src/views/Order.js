@@ -45,7 +45,7 @@ function Order() {
 
 
     async function deletion(orderId) {
-        const { status, message } = await Order.deleteCustomer(orderId);
+        const { status, message } = await Order.deleteOrder(orderId);
 
         if (status !== 200) {
             addToast(message, { appearance: "error" });
