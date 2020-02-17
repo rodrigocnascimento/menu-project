@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Orders', {
+    return queryInterface.createTable("Orders", {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -19,7 +19,7 @@ module.exports = {
       status: {
         allowNull: false,
         type: Sequelize.ENUM,
-        values: ["Ativo","Inativo","Deletado"]
+        values: ["Novo","Entregue","Pendente"]
       },
       value: {
         allowNull: false,
@@ -28,12 +28,12 @@ module.exports = {
       category: {
         allowNull: false,
         type: Sequelize.ENUM,
-        values: ['Merceria', 'Frios', 'Bebidas', 'Limpeza', 'Higiene'],
+        values: ["Merceria", "Frios", "Bebidas", "Limpeza", "Higiene"],
       },
       location: {
         allowNull: false,
         type: Sequelize.ENUM,
-        values: ['RJ', 'SP', 'MG'],
+        values: ["RJ", "SP", "MG"],
       },
       createdAt: {
         allowNull: false,
@@ -46,6 +46,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Orders');
+    return queryInterface.dropTable("Orders");
   }
 };
