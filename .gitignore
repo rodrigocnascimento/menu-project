@@ -1,3 +1,7 @@
+# Ignoring Mac osx default files
+.DS_Store
+.wakatime*
+
 # Logs
 logs
 *.log
@@ -102,3 +106,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignoring vscode configs
+.vscode/*
