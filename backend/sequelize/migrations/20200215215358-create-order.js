@@ -21,6 +21,20 @@ module.exports = {
         type: Sequelize.ENUM,
         values: ["Ativo","Inativo","Deletado"]
       },
+      value: {
+        allowNull: false,
+        type: Sequelize.DOUBLE
+      },
+      category: {
+        allowNull: false,
+        type: Sequelize.ENUM,
+        values: ['Merceria', 'Frios', 'Bebidas', 'Limpeza', 'Higiene'],
+      },
+      location: {
+        allowNull: false,
+        type: Sequelize.ENUM,
+        values: ['RJ', 'SP', 'MG'],
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
