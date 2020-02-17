@@ -31,13 +31,13 @@ router.get("/:id", async (req, res, next) => {
             }]
         }
 
-        const customer = await Orders.findAll(predicate)
+        const order = await Order.findAll(predicate)
 
-        if (!customer.length) {
-            return res.status(404).send({ customerOrder: customer, message: "Pedido de usuário não encontrado!" })    
+        if (!order.length) {
+            return res.status(404).send({ customerOrder: order, message: "Pedido de usuário não encontrado!" })    
         }
 
-        return res.status(200).send({ client })
+        return res.status(200).send({ order })
     } catch (error) {
         res.status(500).send(error.message)
         Promise.reject().catch(next)
@@ -47,7 +47,7 @@ router.get("/:id", async (req, res, next) => {
 router.post("/", async (req, res, next) => {
     try {
         const { body } = req
-        const order = await Orders.create(body)
+        const order = await Order.create(body)
 
         return res.status(200).send({ order })
     } catch (error) {
@@ -66,13 +66,13 @@ router.put("/:id", async (req, res, next) => {
             }
         }
         
-        const [result] = await Orders.update(body, predicate)
+        const [result] = await Order.update(body, predicate)
         
         if (!result) {
             return res.status(404).send({ order: [], message: "Pedido não encontrado!" })
         }
 
-        let update = await Orders.findAll(predicate)
+        let update = await Order.findAll(predicate)
 
         return res.status(200).send({ order: update })
     } catch (error) {
@@ -85,7 +85,7 @@ router.put("/:id", async (req, res, next) => {
 router.delete("/:id", async (req, res, next) => {
     try {
         const id = req.params.id
-        const result = await Orders.destroy({
+        const result = await Order.destroy({
             where: {
                 id
             }
