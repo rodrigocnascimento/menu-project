@@ -22,4 +22,4 @@ COPY . .
 RUN chmod +x ./start.sh
 
 # dockerize Wait for other services to be available using TCP, HTTP(S), unix before starting the main process.
-CMD dockerize -wait tcp://db:3306 -timeout 1m ./start.sh
+CMD dockerize -wait tcp://db:3306 -timeout 2m ./start.sh
