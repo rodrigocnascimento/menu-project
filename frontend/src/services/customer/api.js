@@ -9,7 +9,7 @@ function Customer() {
         }
     }
 
-    this.baseUri = `${this.uri}/client`
+    this.baseUri = `${this.uri}/cliente`
 
     this.response = async function (response) {
         const { status, statusText } = response;

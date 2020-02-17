@@ -70,6 +70,7 @@ function CustomerForm({ edition, setEditing, currentCustomer, create, update }) 
                         } else {
                             update(customerData);
                         }
+                        setNewCustomer(false);
                     }}
                     className="w-full max-w-sm">
                     <div className="md:flex md:items-center mb-6">
