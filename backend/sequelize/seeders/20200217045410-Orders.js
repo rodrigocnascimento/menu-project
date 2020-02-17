@@ -1,17 +1,9 @@
-const fs = require("fs")
-const initialSchema = fs.readFileSync('./orders-seeds.sql', 'utf-8')
-
 module.exports = {
   up: async (queryInterface, Sequelize) => {
 
     try {
-      await queryInterface.sequelize.query(initialSchema)
-      return Promise.resolve()
+      return queryInterface.bulkInsert('Orders', require("./resources/orders.json"));
     } catch (e) {
-      let error = e.original.sqlMessage
-      if (error.startsWith('Table') && error.endsWith('already exists')) {
-        return Promise.resolve()
-      }
       return Promise.reject(e)
     }
   },

@@ -1,0 +1,2002 @@
+[
+    {
+        "id": "1",
+        "customerId": "71",
+        "status": "Novo",
+        "value": "65.37",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-09-09 08:09:10",
+        "updatedAt": "2020-01-19 14:01:25"
+    },
+    {
+        "id": "2",
+        "customerId": "80",
+        "status": "Pendente",
+        "value": "69.19",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-09-09 12:09:45",
+        "updatedAt": "2020-02-02 07:02:21"
+    },
+    {
+        "id": "3",
+        "customerId": "19",
+        "status": "Entregue",
+        "value": "50.92",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-03-03 12:03:09",
+        "updatedAt": "2020-02-01 03:02:03"
+    },
+    {
+        "id": "4",
+        "customerId": "53",
+        "status": "Novo",
+        "value": "24.30",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-12-12 23:12:49",
+        "updatedAt": "2020-01-14 22:01:03"
+    },
+    {
+        "id": "5",
+        "customerId": "37",
+        "status": "Entregue",
+        "value": "27.99",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-08-08 08:08:35",
+        "updatedAt": "2020-01-28 10:01:12"
+    },
+    {
+        "id": "6",
+        "customerId": "66",
+        "status": "Entregue",
+        "value": "69.88",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-11-11 14:11:08",
+        "updatedAt": "2020-01-14 16:01:53"
+    },
+    {
+        "id": "7",
+        "customerId": "4",
+        "status": "Entregue",
+        "value": "27.58",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-11-11 02:11:09",
+        "updatedAt": "2020-02-16 12:02:44"
+    },
+    {
+        "id": "8",
+        "customerId": "46",
+        "status": "Entregue",
+        "value": "7.57",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-12-12 15:12:44",
+        "updatedAt": "2020-01-02 02:01:56"
+    },
+    {
+        "id": "9",
+        "customerId": "16",
+        "status": "Entregue",
+        "value": "53.04",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-04-04 10:04:22",
+        "updatedAt": "2020-02-01 20:02:18"
+    },
+    {
+        "id": "10",
+        "customerId": "58",
+        "status": "Pendente",
+        "value": "33.10",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-06-06 08:06:34",
+        "updatedAt": "2020-02-09 08:02:02"
+    },
+    {
+        "id": "11",
+        "customerId": "38",
+        "status": "Pendente",
+        "value": "58.00",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-06-06 17:06:29",
+        "updatedAt": "2020-01-23 07:01:56"
+    },
+    {
+        "id": "12",
+        "customerId": "92",
+        "status": "Novo",
+        "value": "8.74",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-07-07 23:07:11",
+        "updatedAt": "2020-02-02 11:02:26"
+    },
+    {
+        "id": "13",
+        "customerId": "87",
+        "status": "Entregue",
+        "value": "43.88",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-07-07 16:07:18",
+        "updatedAt": "2020-02-08 14:02:23"
+    },
+    {
+        "id": "14",
+        "customerId": "5",
+        "status": "Entregue",
+        "value": "23.46",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-03-03 23:03:07",
+        "updatedAt": "2020-01-09 17:01:43"
+    },
+    {
+        "id": "15",
+        "customerId": "84",
+        "status": "Novo",
+        "value": "85.24",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-05-05 21:05:26",
+        "updatedAt": "2020-02-16 00:02:05"
+    },
+    {
+        "id": "16",
+        "customerId": "43",
+        "status": "Novo",
+        "value": "72.74",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-06-06 16:06:07",
+        "updatedAt": "2020-01-12 21:01:34"
+    },
+    {
+        "id": "17",
+        "customerId": "30",
+        "status": "Entregue",
+        "value": "11.99",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-07-07 11:07:17",
+        "updatedAt": "2020-01-12 16:01:02"
+    },
+    {
+        "id": "18",
+        "customerId": "66",
+        "status": "Novo",
+        "value": "21.48",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2020-01-01 12:01:21",
+        "updatedAt": "2020-02-12 17:02:12"
+    },
+    {
+        "id": "19",
+        "customerId": "11",
+        "status": "Novo",
+        "value": "65.34",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-08-08 07:08:49",
+        "updatedAt": "2020-01-06 09:01:45"
+    },
+    {
+        "id": "20",
+        "customerId": "50",
+        "status": "Pendente",
+        "value": "73.60",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-07-07 02:07:33",
+        "updatedAt": "2020-02-16 01:02:06"
+    },
+    {
+        "id": "21",
+        "customerId": "37",
+        "status": "Novo",
+        "value": "61.21",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-12-12 11:12:58",
+        "updatedAt": "2020-01-03 04:01:11"
+    },
+    {
+        "id": "22",
+        "customerId": "75",
+        "status": "Novo",
+        "value": "2.74",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-06-06 13:06:42",
+        "updatedAt": "2020-02-16 10:02:50"
+    },
+    {
+        "id": "23",
+        "customerId": "61",
+        "status": "Entregue",
+        "value": "63.40",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-05-05 15:05:44",
+        "updatedAt": "2020-01-18 04:01:20"
+    },
+    {
+        "id": "24",
+        "customerId": "38",
+        "status": "Novo",
+        "value": "28.04",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-12-12 08:12:04",
+        "updatedAt": "2020-01-08 18:01:09"
+    },
+    {
+        "id": "25",
+        "customerId": "61",
+        "status": "Novo",
+        "value": "51.62",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-06-06 00:06:24",
+        "updatedAt": "2020-01-14 18:01:18"
+    },
+    {
+        "id": "26",
+        "customerId": "25",
+        "status": "Entregue",
+        "value": "40.80",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-11-11 19:11:03",
+        "updatedAt": "2020-01-12 13:01:39"
+    },
+    {
+        "id": "27",
+        "customerId": "29",
+        "status": "Pendente",
+        "value": "32.83",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-09-09 11:09:21",
+        "updatedAt": "2020-02-13 21:02:37"
+    },
+    {
+        "id": "28",
+        "customerId": "37",
+        "status": "Pendente",
+        "value": "37.62",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-05-05 04:05:13",
+        "updatedAt": "2020-01-19 01:01:38"
+    },
+    {
+        "id": "29",
+        "customerId": "61",
+        "status": "Novo",
+        "value": "11.48",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-10-10 15:10:34",
+        "updatedAt": "2020-02-06 03:02:15"
+    },
+    {
+        "id": "30",
+        "customerId": "67",
+        "status": "Pendente",
+        "value": "49.60",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-09-09 12:09:20",
+        "updatedAt": "2020-01-15 03:01:04"
+    },
+    {
+        "id": "31",
+        "customerId": "37",
+        "status": "Novo",
+        "value": "70.50",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-07-07 13:07:23",
+        "updatedAt": "2020-01-27 07:01:32"
+    },
+    {
+        "id": "32",
+        "customerId": "37",
+        "status": "Pendente",
+        "value": "0.42",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2020-01-01 17:01:56",
+        "updatedAt": "2020-01-01 07:01:44"
+    },
+    {
+        "id": "33",
+        "customerId": "7",
+        "status": "Novo",
+        "value": "62.54",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-08-08 11:08:09",
+        "updatedAt": "2020-01-20 19:01:28"
+    },
+    {
+        "id": "34",
+        "customerId": "34",
+        "status": "Pendente",
+        "value": "93.64",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-08-08 21:08:03",
+        "updatedAt": "2020-02-16 10:02:07"
+    },
+    {
+        "id": "35",
+        "customerId": "39",
+        "status": "Novo",
+        "value": "49.89",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-03-03 16:03:55",
+        "updatedAt": "2020-01-25 09:01:10"
+    },
+    {
+        "id": "36",
+        "customerId": "38",
+        "status": "Pendente",
+        "value": "17.84",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-11-11 02:11:06",
+        "updatedAt": "2020-02-14 08:02:19"
+    },
+    {
+        "id": "37",
+        "customerId": "58",
+        "status": "Novo",
+        "value": "10.12",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-07-07 03:07:00",
+        "updatedAt": "2020-01-31 07:01:42"
+    },
+    {
+        "id": "38",
+        "customerId": "87",
+        "status": "Entregue",
+        "value": "8.14",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2020-01-01 17:01:19",
+        "updatedAt": "2020-01-10 15:01:29"
+    },
+    {
+        "id": "39",
+        "customerId": "74",
+        "status": "Entregue",
+        "value": "97.37",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-06-06 08:06:56",
+        "updatedAt": "2020-01-25 23:01:30"
+    },
+    {
+        "id": "40",
+        "customerId": "98",
+        "status": "Pendente",
+        "value": "52.00",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-12-12 06:12:49",
+        "updatedAt": "2020-02-11 01:02:28"
+    },
+    {
+        "id": "41",
+        "customerId": "85",
+        "status": "Pendente",
+        "value": "54.44",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-12-12 20:12:05",
+        "updatedAt": "2020-01-06 00:01:10"
+    },
+    {
+        "id": "42",
+        "customerId": "54",
+        "status": "Novo",
+        "value": "80.16",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-10-10 21:10:46",
+        "updatedAt": "2020-01-09 11:01:38"
+    },
+    {
+        "id": "43",
+        "customerId": "47",
+        "status": "Novo",
+        "value": "85.97",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-11-11 19:11:55",
+        "updatedAt": "2020-01-02 23:01:14"
+    },
+    {
+        "id": "44",
+        "customerId": "54",
+        "status": "Pendente",
+        "value": "14.41",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-05-05 20:05:05",
+        "updatedAt": "2020-01-24 05:01:00"
+    },
+    {
+        "id": "45",
+        "customerId": "30",
+        "status": "Entregue",
+        "value": "21.70",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-06-06 00:06:08",
+        "updatedAt": "2020-01-10 16:01:57"
+    },
+    {
+        "id": "46",
+        "customerId": "35",
+        "status": "Novo",
+        "value": "11.57",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-07-07 01:07:46",
+        "updatedAt": "2020-01-29 00:01:01"
+    },
+    {
+        "id": "47",
+        "customerId": "35",
+        "status": "Entregue",
+        "value": "70.44",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-07-07 03:07:24",
+        "updatedAt": "2020-01-23 15:01:22"
+    },
+    {
+        "id": "48",
+        "customerId": "1",
+        "status": "Novo",
+        "value": "88.12",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-03-03 16:03:19",
+        "updatedAt": "2020-01-20 22:01:03"
+    },
+    {
+        "id": "49",
+        "customerId": "23",
+        "status": "Novo",
+        "value": "25.14",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-12-12 18:12:08",
+        "updatedAt": "2020-01-15 02:01:51"
+    },
+    {
+        "id": "50",
+        "customerId": "59",
+        "status": "Entregue",
+        "value": "86.09",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-09-09 19:09:30",
+        "updatedAt": "2020-01-24 15:01:16"
+    },
+    {
+        "id": "51",
+        "customerId": "59",
+        "status": "Entregue",
+        "value": "88.17",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-12-12 09:12:44",
+        "updatedAt": "2020-01-12 00:01:30"
+    },
+    {
+        "id": "52",
+        "customerId": "76",
+        "status": "Entregue",
+        "value": "86.88",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-04-04 08:04:35",
+        "updatedAt": "2020-02-05 09:02:07"
+    },
+    {
+        "id": "53",
+        "customerId": "46",
+        "status": "Entregue",
+        "value": "36.06",
+        "category": "Limpeza",
+        "location": "MG",
+        "createdAt": "2020-01-01 13:01:01",
+        "updatedAt": "2020-01-13 17:01:24"
+    },
+    {
+        "id": "54",
+        "customerId": "90",
+        "status": "Novo",
+        "value": "89.61",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-10-10 05:10:10",
+        "updatedAt": "2020-01-13 10:01:47"
+    },
+    {
+        "id": "55",
+        "customerId": "47",
+        "status": "Pendente",
+        "value": "71.93",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-08-08 07:08:37",
+        "updatedAt": "2020-02-05 02:02:42"
+    },
+    {
+        "id": "56",
+        "customerId": "77",
+        "status": "Novo",
+        "value": "79.85",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-03-03 08:03:15",
+        "updatedAt": "2020-01-20 19:01:23"
+    },
+    {
+        "id": "57",
+        "customerId": "21",
+        "status": "Pendente",
+        "value": "84.12",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-12-12 00:12:43",
+        "updatedAt": "2020-01-10 13:01:50"
+    },
+    {
+        "id": "58",
+        "customerId": "48",
+        "status": "Novo",
+        "value": "71.55",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-07-07 15:07:04",
+        "updatedAt": "2020-02-16 20:02:48"
+    },
+    {
+        "id": "59",
+        "customerId": "98",
+        "status": "Entregue",
+        "value": "60.94",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-07-07 03:07:05",
+        "updatedAt": "2020-02-02 04:02:47"
+    },
+    {
+        "id": "60",
+        "customerId": "17",
+        "status": "Pendente",
+        "value": "62.36",
+        "category": "Limpeza",
+        "location": "MG",
+        "createdAt": "2019-08-08 10:08:26",
+        "updatedAt": "2020-01-07 22:01:58"
+    },
+    {
+        "id": "61",
+        "customerId": "47",
+        "status": "Pendente",
+        "value": "86.79",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-05-05 02:05:28",
+        "updatedAt": "2020-02-04 13:02:46"
+    },
+    {
+        "id": "62",
+        "customerId": "19",
+        "status": "Entregue",
+        "value": "24.23",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-11-11 18:11:36",
+        "updatedAt": "2020-01-13 19:01:21"
+    },
+    {
+        "id": "63",
+        "customerId": "5",
+        "status": "Novo",
+        "value": "11.92",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-09-09 09:09:35",
+        "updatedAt": "2020-01-22 00:01:47"
+    },
+    {
+        "id": "64",
+        "customerId": "96",
+        "status": "Pendente",
+        "value": "57.94",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-06-06 22:06:41",
+        "updatedAt": "2020-01-13 00:01:58"
+    },
+    {
+        "id": "65",
+        "customerId": "34",
+        "status": "Novo",
+        "value": "75.38",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-11-11 00:11:23",
+        "updatedAt": "2020-01-13 11:01:14"
+    },
+    {
+        "id": "66",
+        "customerId": "44",
+        "status": "Entregue",
+        "value": "35.40",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-05-05 02:05:00",
+        "updatedAt": "2020-01-25 08:01:21"
+    },
+    {
+        "id": "67",
+        "customerId": "12",
+        "status": "Entregue",
+        "value": "2.64",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-06-06 22:06:50",
+        "updatedAt": "2020-01-11 03:01:19"
+    },
+    {
+        "id": "68",
+        "customerId": "51",
+        "status": "Entregue",
+        "value": "72.48",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-02-02 18:02:35",
+        "updatedAt": "2020-01-30 09:01:24"
+    },
+    {
+        "id": "69",
+        "customerId": "22",
+        "status": "Pendente",
+        "value": "47.17",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-02-02 23:02:22",
+        "updatedAt": "2020-01-25 11:01:29"
+    },
+    {
+        "id": "70",
+        "customerId": "83",
+        "status": "Pendente",
+        "value": "27.70",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2020-01-01 10:01:53",
+        "updatedAt": "2020-01-08 19:01:35"
+    },
+    {
+        "id": "71",
+        "customerId": "44",
+        "status": "Pendente",
+        "value": "99.74",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-09-09 01:09:42",
+        "updatedAt": "2020-02-10 04:02:00"
+    },
+    {
+        "id": "72",
+        "customerId": "63",
+        "status": "Pendente",
+        "value": "80.29",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-04-04 07:04:52",
+        "updatedAt": "2020-01-04 00:01:51"
+    },
+    {
+        "id": "73",
+        "customerId": "21",
+        "status": "Novo",
+        "value": "14.43",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-03-03 20:03:00",
+        "updatedAt": "2020-01-04 10:01:42"
+    },
+    {
+        "id": "74",
+        "customerId": "57",
+        "status": "Novo",
+        "value": "92.50",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-09-09 08:09:51",
+        "updatedAt": "2020-01-15 13:01:11"
+    },
+    {
+        "id": "75",
+        "customerId": "10",
+        "status": "Novo",
+        "value": "90.48",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-05-05 12:05:09",
+        "updatedAt": "2020-02-15 12:02:54"
+    },
+    {
+        "id": "76",
+        "customerId": "70",
+        "status": "Novo",
+        "value": "94.28",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-12-12 00:12:19",
+        "updatedAt": "2020-01-14 03:01:21"
+    },
+    {
+        "id": "77",
+        "customerId": "7",
+        "status": "Pendente",
+        "value": "24.58",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-09-09 00:09:15",
+        "updatedAt": "2020-02-16 04:02:26"
+    },
+    {
+        "id": "78",
+        "customerId": "12",
+        "status": "Pendente",
+        "value": "16.58",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-04-04 17:04:45",
+        "updatedAt": "2020-01-14 06:01:18"
+    },
+    {
+        "id": "79",
+        "customerId": "35",
+        "status": "Novo",
+        "value": "34.36",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-03-03 21:03:20",
+        "updatedAt": "2020-01-18 07:01:03"
+    },
+    {
+        "id": "80",
+        "customerId": "33",
+        "status": "Pendente",
+        "value": "76.42",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2020-01-01 11:01:16",
+        "updatedAt": "2020-02-11 09:02:59"
+    },
+    {
+        "id": "81",
+        "customerId": "20",
+        "status": "Pendente",
+        "value": "19.34",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-10-10 12:10:31",
+        "updatedAt": "2020-02-01 18:02:40"
+    },
+    {
+        "id": "82",
+        "customerId": "98",
+        "status": "Novo",
+        "value": "25.59",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-09-09 23:09:05",
+        "updatedAt": "2020-02-10 11:02:04"
+    },
+    {
+        "id": "83",
+        "customerId": "29",
+        "status": "Novo",
+        "value": "55.49",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-03-03 17:03:54",
+        "updatedAt": "2020-01-24 07:01:05"
+    },
+    {
+        "id": "84",
+        "customerId": "45",
+        "status": "Novo",
+        "value": "42.10",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-11-11 23:11:30",
+        "updatedAt": "2020-02-05 07:02:25"
+    },
+    {
+        "id": "85",
+        "customerId": "56",
+        "status": "Pendente",
+        "value": "62.49",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2020-01-01 00:01:27",
+        "updatedAt": "2020-02-13 22:02:39"
+    },
+    {
+        "id": "86",
+        "customerId": "23",
+        "status": "Novo",
+        "value": "8.09",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-05-05 14:05:41",
+        "updatedAt": "2020-01-29 02:01:07"
+    },
+    {
+        "id": "87",
+        "customerId": "13",
+        "status": "Pendente",
+        "value": "49.42",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-04-04 22:04:14",
+        "updatedAt": "2020-01-05 18:01:24"
+    },
+    {
+        "id": "88",
+        "customerId": "13",
+        "status": "Entregue",
+        "value": "81.08",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2020-01-01 17:01:48",
+        "updatedAt": "2020-01-29 11:01:33"
+    },
+    {
+        "id": "89",
+        "customerId": "9",
+        "status": "Entregue",
+        "value": "69.64",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-09-09 10:09:00",
+        "updatedAt": "2020-01-17 00:01:37"
+    },
+    {
+        "id": "90",
+        "customerId": "98",
+        "status": "Entregue",
+        "value": "26.06",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-08-08 23:08:56",
+        "updatedAt": "2020-02-10 08:02:02"
+    },
+    {
+        "id": "91",
+        "customerId": "11",
+        "status": "Entregue",
+        "value": "92.22",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-04-04 23:04:19",
+        "updatedAt": "2020-01-25 16:01:53"
+    },
+    {
+        "id": "92",
+        "customerId": "49",
+        "status": "Entregue",
+        "value": "91.16",
+        "category": "Limpeza",
+        "location": "MG",
+        "createdAt": "2019-11-11 22:11:06",
+        "updatedAt": "2020-01-09 05:01:39"
+    },
+    {
+        "id": "93",
+        "customerId": "29",
+        "status": "Entregue",
+        "value": "89.64",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-09-09 12:09:33",
+        "updatedAt": "2020-01-23 09:01:56"
+    },
+    {
+        "id": "94",
+        "customerId": "82",
+        "status": "Pendente",
+        "value": "85.37",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-10-10 07:10:56",
+        "updatedAt": "2020-01-29 07:01:17"
+    },
+    {
+        "id": "95",
+        "customerId": "85",
+        "status": "Entregue",
+        "value": "32.43",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-12-12 10:12:47",
+        "updatedAt": "2020-01-18 14:01:07"
+    },
+    {
+        "id": "96",
+        "customerId": "93",
+        "status": "Entregue",
+        "value": "16.81",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-07-07 13:07:53",
+        "updatedAt": "2020-01-17 07:01:16"
+    },
+    {
+        "id": "97",
+        "customerId": "57",
+        "status": "Entregue",
+        "value": "14.31",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-05-05 07:05:33",
+        "updatedAt": "2020-01-29 15:01:11"
+    },
+    {
+        "id": "98",
+        "customerId": "72",
+        "status": "Novo",
+        "value": "68.63",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-12-12 22:12:22",
+        "updatedAt": "2020-01-01 12:01:45"
+    },
+    {
+        "id": "99",
+        "customerId": "97",
+        "status": "Pendente",
+        "value": "31.34",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-09-09 17:09:58",
+        "updatedAt": "2020-02-13 17:02:50"
+    },
+    {
+        "id": "100",
+        "customerId": "31",
+        "status": "Pendente",
+        "value": "18.92",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-06-06 20:06:08",
+        "updatedAt": "2020-02-08 04:02:30"
+    },
+    {
+        "id": "101",
+        "customerId": "4",
+        "status": "Pendente",
+        "value": "49.92",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-11-11 06:11:32",
+        "updatedAt": "2020-01-07 12:01:56"
+    },
+    {
+        "id": "102",
+        "customerId": "93",
+        "status": "Novo",
+        "value": "50.95",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2020-01-01 20:01:05",
+        "updatedAt": "2020-02-03 18:02:20"
+    },
+    {
+        "id": "103",
+        "customerId": "18",
+        "status": "Entregue",
+        "value": "74.30",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-08-08 13:08:36",
+        "updatedAt": "2020-01-08 18:01:29"
+    },
+    {
+        "id": "104",
+        "customerId": "17",
+        "status": "Entregue",
+        "value": "99.55",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2020-02-02 20:02:16",
+        "updatedAt": "2020-01-20 23:01:38"
+    },
+    {
+        "id": "105",
+        "customerId": "18",
+        "status": "Entregue",
+        "value": "25.45",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-07-07 07:07:09",
+        "updatedAt": "2020-02-05 16:02:30"
+    },
+    {
+        "id": "106",
+        "customerId": "12",
+        "status": "Novo",
+        "value": "91.80",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-08-08 10:08:09",
+        "updatedAt": "2020-01-08 11:01:15"
+    },
+    {
+        "id": "107",
+        "customerId": "97",
+        "status": "Entregue",
+        "value": "47.16",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-05-05 09:05:04",
+        "updatedAt": "2020-01-28 11:01:47"
+    },
+    {
+        "id": "108",
+        "customerId": "24",
+        "status": "Entregue",
+        "value": "77.57",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-09-09 22:09:42",
+        "updatedAt": "2020-02-14 02:02:48"
+    },
+    {
+        "id": "109",
+        "customerId": "57",
+        "status": "Pendente",
+        "value": "11.15",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-03-03 15:03:22",
+        "updatedAt": "2020-02-05 03:02:41"
+    },
+    {
+        "id": "110",
+        "customerId": "11",
+        "status": "Novo",
+        "value": "35.93",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-05-05 08:05:50",
+        "updatedAt": "2020-01-31 11:01:59"
+    },
+    {
+        "id": "111",
+        "customerId": "4",
+        "status": "Novo",
+        "value": "14.91",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-07-07 18:07:37",
+        "updatedAt": "2020-01-26 22:01:38"
+    },
+    {
+        "id": "112",
+        "customerId": "74",
+        "status": "Pendente",
+        "value": "2.88",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-06-06 08:06:47",
+        "updatedAt": "2020-02-07 09:02:27"
+    },
+    {
+        "id": "113",
+        "customerId": "40",
+        "status": "Novo",
+        "value": "19.62",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-03-03 02:03:49",
+        "updatedAt": "2020-01-02 04:01:30"
+    },
+    {
+        "id": "114",
+        "customerId": "58",
+        "status": "Pendente",
+        "value": "97.90",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-08-08 22:08:19",
+        "updatedAt": "2020-01-15 12:01:51"
+    },
+    {
+        "id": "115",
+        "customerId": "79",
+        "status": "Novo",
+        "value": "78.99",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-11-11 03:11:34",
+        "updatedAt": "2020-01-05 11:01:27"
+    },
+    {
+        "id": "116",
+        "customerId": "69",
+        "status": "Novo",
+        "value": "24.91",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2020-01-01 13:01:08",
+        "updatedAt": "2020-01-04 19:01:13"
+    },
+    {
+        "id": "117",
+        "customerId": "12",
+        "status": "Entregue",
+        "value": "75.90",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-07-07 19:07:47",
+        "updatedAt": "2020-01-15 00:01:47"
+    },
+    {
+        "id": "118",
+        "customerId": "61",
+        "status": "Entregue",
+        "value": "43.85",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-11-11 01:11:42",
+        "updatedAt": "2020-01-11 17:01:13"
+    },
+    {
+        "id": "119",
+        "customerId": "71",
+        "status": "Novo",
+        "value": "96.69",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-06-06 03:06:33",
+        "updatedAt": "2020-01-17 14:01:50"
+    },
+    {
+        "id": "120",
+        "customerId": "75",
+        "status": "Pendente",
+        "value": "87.63",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-10-10 10:10:48",
+        "updatedAt": "2020-02-06 16:02:11"
+    },
+    {
+        "id": "121",
+        "customerId": "45",
+        "status": "Novo",
+        "value": "68.71",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-12-12 11:12:54",
+        "updatedAt": "2020-01-20 19:01:57"
+    },
+    {
+        "id": "122",
+        "customerId": "74",
+        "status": "Novo",
+        "value": "11.38",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-04-04 03:04:55",
+        "updatedAt": "2020-02-12 20:02:09"
+    },
+    {
+        "id": "123",
+        "customerId": "33",
+        "status": "Entregue",
+        "value": "35.39",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-10-10 13:10:58",
+        "updatedAt": "2020-01-07 16:01:42"
+    },
+    {
+        "id": "124",
+        "customerId": "88",
+        "status": "Novo",
+        "value": "44.71",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-09-09 18:09:47",
+        "updatedAt": "2020-01-31 05:01:40"
+    },
+    {
+        "id": "125",
+        "customerId": "32",
+        "status": "Entregue",
+        "value": "17.16",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-10-10 11:10:13",
+        "updatedAt": "2020-01-21 11:01:35"
+    },
+    {
+        "id": "126",
+        "customerId": "90",
+        "status": "Entregue",
+        "value": "64.66",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-11-11 12:11:36",
+        "updatedAt": "2020-01-05 18:01:38"
+    },
+    {
+        "id": "127",
+        "customerId": "94",
+        "status": "Novo",
+        "value": "81.37",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-07-07 12:07:01",
+        "updatedAt": "2020-02-10 20:02:03"
+    },
+    {
+        "id": "128",
+        "customerId": "55",
+        "status": "Pendente",
+        "value": "78.67",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-03-03 13:03:03",
+        "updatedAt": "2020-01-08 08:01:16"
+    },
+    {
+        "id": "129",
+        "customerId": "91",
+        "status": "Pendente",
+        "value": "11.65",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2020-01-01 05:01:41",
+        "updatedAt": "2020-01-19 09:01:02"
+    },
+    {
+        "id": "130",
+        "customerId": "47",
+        "status": "Entregue",
+        "value": "46.60",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-06-06 05:06:10",
+        "updatedAt": "2020-01-26 10:01:26"
+    },
+    {
+        "id": "131",
+        "customerId": "61",
+        "status": "Pendente",
+        "value": "75.85",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-06-06 08:06:11",
+        "updatedAt": "2020-01-09 14:01:28"
+    },
+    {
+        "id": "132",
+        "customerId": "40",
+        "status": "Entregue",
+        "value": "21.40",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-07-07 02:07:44",
+        "updatedAt": "2020-01-25 16:01:31"
+    },
+    {
+        "id": "133",
+        "customerId": "51",
+        "status": "Novo",
+        "value": "25.62",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-06-06 10:06:05",
+        "updatedAt": "2020-01-27 00:01:01"
+    },
+    {
+        "id": "134",
+        "customerId": "23",
+        "status": "Pendente",
+        "value": "95.95",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-05-05 13:05:12",
+        "updatedAt": "2020-02-09 18:02:50"
+    },
+    {
+        "id": "135",
+        "customerId": "5",
+        "status": "Pendente",
+        "value": "38.60",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-12-12 11:12:56",
+        "updatedAt": "2020-01-17 02:01:30"
+    },
+    {
+        "id": "136",
+        "customerId": "41",
+        "status": "Entregue",
+        "value": "96.91",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-10-10 10:10:52",
+        "updatedAt": "2020-01-04 13:01:49"
+    },
+    {
+        "id": "137",
+        "customerId": "73",
+        "status": "Pendente",
+        "value": "83.69",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-11-11 18:11:10",
+        "updatedAt": "2020-01-03 04:01:58"
+    },
+    {
+        "id": "138",
+        "customerId": "78",
+        "status": "Entregue",
+        "value": "15.11",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-06-06 07:06:57",
+        "updatedAt": "2020-01-01 01:01:38"
+    },
+    {
+        "id": "139",
+        "customerId": "29",
+        "status": "Novo",
+        "value": "0.82",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-09-09 19:09:46",
+        "updatedAt": "2020-02-04 11:02:10"
+    },
+    {
+        "id": "140",
+        "customerId": "97",
+        "status": "Pendente",
+        "value": "95.11",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-12-12 17:12:31",
+        "updatedAt": "2020-01-13 08:01:28"
+    },
+    {
+        "id": "141",
+        "customerId": "91",
+        "status": "Entregue",
+        "value": "83.02",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-10-10 16:10:46",
+        "updatedAt": "2020-02-03 10:02:03"
+    },
+    {
+        "id": "142",
+        "customerId": "63",
+        "status": "Novo",
+        "value": "73.53",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-10-10 08:10:03",
+        "updatedAt": "2020-01-12 13:01:43"
+    },
+    {
+        "id": "143",
+        "customerId": "25",
+        "status": "Novo",
+        "value": "99.51",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2020-01-01 06:01:27",
+        "updatedAt": "2020-01-08 07:01:47"
+    },
+    {
+        "id": "144",
+        "customerId": "75",
+        "status": "Entregue",
+        "value": "92.28",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-12-12 07:12:45",
+        "updatedAt": "2020-01-21 19:01:35"
+    },
+    {
+        "id": "145",
+        "customerId": "27",
+        "status": "Pendente",
+        "value": "81.71",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-05-05 21:05:27",
+        "updatedAt": "2020-01-17 11:01:22"
+    },
+    {
+        "id": "146",
+        "customerId": "77",
+        "status": "Novo",
+        "value": "23.31",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-09-09 14:09:12",
+        "updatedAt": "2020-02-04 14:02:37"
+    },
+    {
+        "id": "147",
+        "customerId": "60",
+        "status": "Novo",
+        "value": "42.34",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-08-08 18:08:50",
+        "updatedAt": "2020-02-03 03:02:00"
+    },
+    {
+        "id": "148",
+        "customerId": "4",
+        "status": "Pendente",
+        "value": "56.83",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-08-08 14:08:52",
+        "updatedAt": "2020-01-24 22:01:08"
+    },
+    {
+        "id": "149",
+        "customerId": "30",
+        "status": "Novo",
+        "value": "74.81",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2020-01-01 17:01:03",
+        "updatedAt": "2020-02-02 04:02:57"
+    },
+    {
+        "id": "150",
+        "customerId": "91",
+        "status": "Novo",
+        "value": "2.57",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-06-06 14:06:27",
+        "updatedAt": "2020-01-24 09:01:40"
+    },
+    {
+        "id": "151",
+        "customerId": "8",
+        "status": "Novo",
+        "value": "43.96",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-12-12 07:12:29",
+        "updatedAt": "2020-02-07 01:02:34"
+    },
+    {
+        "id": "152",
+        "customerId": "94",
+        "status": "Entregue",
+        "value": "35.30",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-07-07 06:07:44",
+        "updatedAt": "2020-01-01 01:01:46"
+    },
+    {
+        "id": "153",
+        "customerId": "42",
+        "status": "Entregue",
+        "value": "15.20",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-06-06 11:06:21",
+        "updatedAt": "2020-01-20 14:01:14"
+    },
+    {
+        "id": "154",
+        "customerId": "1",
+        "status": "Novo",
+        "value": "80.58",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-03-03 01:03:46",
+        "updatedAt": "2020-02-10 19:02:46"
+    },
+    {
+        "id": "155",
+        "customerId": "11",
+        "status": "Novo",
+        "value": "88.91",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2020-02-02 17:02:22",
+        "updatedAt": "2020-01-30 14:01:47"
+    },
+    {
+        "id": "156",
+        "customerId": "59",
+        "status": "Novo",
+        "value": "70.90",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-06-06 23:06:09",
+        "updatedAt": "2020-01-23 02:01:14"
+    },
+    {
+        "id": "157",
+        "customerId": "84",
+        "status": "Novo",
+        "value": "45.61",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-03-03 23:03:24",
+        "updatedAt": "2020-01-24 16:01:42"
+    },
+    {
+        "id": "158",
+        "customerId": "47",
+        "status": "Pendente",
+        "value": "82.87",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-03-03 11:03:17",
+        "updatedAt": "2020-02-13 09:02:40"
+    },
+    {
+        "id": "159",
+        "customerId": "94",
+        "status": "Entregue",
+        "value": "95.27",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-12-12 04:12:39",
+        "updatedAt": "2020-01-18 09:01:23"
+    },
+    {
+        "id": "160",
+        "customerId": "93",
+        "status": "Pendente",
+        "value": "85.35",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2019-12-12 09:12:47",
+        "updatedAt": "2020-01-20 02:01:09"
+    },
+    {
+        "id": "161",
+        "customerId": "98",
+        "status": "Entregue",
+        "value": "8.20",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-03-03 11:03:54",
+        "updatedAt": "2020-01-19 00:01:33"
+    },
+    {
+        "id": "162",
+        "customerId": "82",
+        "status": "Entregue",
+        "value": "63.27",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-05-05 14:05:22",
+        "updatedAt": "2020-02-02 05:02:54"
+    },
+    {
+        "id": "163",
+        "customerId": "62",
+        "status": "Entregue",
+        "value": "28.88",
+        "category": "Limpeza",
+        "location": "MG",
+        "createdAt": "2019-12-12 05:12:45",
+        "updatedAt": "2020-02-12 14:02:49"
+    },
+    {
+        "id": "164",
+        "customerId": "86",
+        "status": "Novo",
+        "value": "2.80",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2020-01-01 04:01:16",
+        "updatedAt": "2020-01-01 05:01:52"
+    },
+    {
+        "id": "165",
+        "customerId": "38",
+        "status": "Novo",
+        "value": "67.74",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-10-10 18:10:32",
+        "updatedAt": "2020-02-10 04:02:48"
+    },
+    {
+        "id": "166",
+        "customerId": "87",
+        "status": "Novo",
+        "value": "96.15",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-02-02 21:02:50",
+        "updatedAt": "2020-02-13 03:02:17"
+    },
+    {
+        "id": "167",
+        "customerId": "11",
+        "status": "Novo",
+        "value": "84.67",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-11-11 22:11:36",
+        "updatedAt": "2020-01-31 21:01:51"
+    },
+    {
+        "id": "168",
+        "customerId": "85",
+        "status": "Pendente",
+        "value": "64.85",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-10-10 09:10:27",
+        "updatedAt": "2020-01-22 04:01:24"
+    },
+    {
+        "id": "169",
+        "customerId": "51",
+        "status": "Pendente",
+        "value": "96.85",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-11-11 18:11:40",
+        "updatedAt": "2020-01-07 16:01:16"
+    },
+    {
+        "id": "170",
+        "customerId": "28",
+        "status": "Novo",
+        "value": "94.43",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2020-02-02 08:02:03",
+        "updatedAt": "2020-01-01 19:01:59"
+    },
+    {
+        "id": "171",
+        "customerId": "1",
+        "status": "Pendente",
+        "value": "31.37",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-10-10 11:10:09",
+        "updatedAt": "2020-02-12 07:02:29"
+    },
+    {
+        "id": "172",
+        "customerId": "8",
+        "status": "Pendente",
+        "value": "19.30",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2020-01-01 00:01:02",
+        "updatedAt": "2020-01-18 06:01:06"
+    },
+    {
+        "id": "173",
+        "customerId": "3",
+        "status": "Pendente",
+        "value": "24.09",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-11-11 03:11:46",
+        "updatedAt": "2020-01-20 03:01:21"
+    },
+    {
+        "id": "174",
+        "customerId": "87",
+        "status": "Novo",
+        "value": "69.07",
+        "category": "Merceria",
+        "location": "SP",
+        "createdAt": "2019-03-03 14:03:24",
+        "updatedAt": "2020-02-14 15:02:22"
+    },
+    {
+        "id": "175",
+        "customerId": "71",
+        "status": "Entregue",
+        "value": "38.02",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-11-11 18:11:48",
+        "updatedAt": "2020-01-18 07:01:07"
+    },
+    {
+        "id": "176",
+        "customerId": "82",
+        "status": "Entregue",
+        "value": "22.20",
+        "category": "Bebidas",
+        "location": "SP",
+        "createdAt": "2019-08-08 05:08:26",
+        "updatedAt": "2020-02-10 03:02:46"
+    },
+    {
+        "id": "177",
+        "customerId": "22",
+        "status": "Entregue",
+        "value": "80.90",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2019-03-03 23:03:32",
+        "updatedAt": "2020-01-16 15:01:57"
+    },
+    {
+        "id": "178",
+        "customerId": "75",
+        "status": "Entregue",
+        "value": "97.00",
+        "category": "Limpeza",
+        "location": "SP",
+        "createdAt": "2020-02-02 19:02:05",
+        "updatedAt": "2020-02-09 23:02:16"
+    },
+    {
+        "id": "179",
+        "customerId": "20",
+        "status": "Entregue",
+        "value": "70.24",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-10-10 14:10:29",
+        "updatedAt": "2020-02-03 19:02:24"
+    },
+    {
+        "id": "180",
+        "customerId": "72",
+        "status": "Pendente",
+        "value": "27.25",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-04-04 13:04:24",
+        "updatedAt": "2020-02-02 11:02:39"
+    },
+    {
+        "id": "181",
+        "customerId": "72",
+        "status": "Novo",
+        "value": "91.12",
+        "category": "Frios",
+        "location": "RJ",
+        "createdAt": "2020-01-01 08:01:27",
+        "updatedAt": "2020-01-19 03:01:35"
+    },
+    {
+        "id": "182",
+        "customerId": "79",
+        "status": "Novo",
+        "value": "70.20",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2019-05-05 17:05:10",
+        "updatedAt": "2020-02-03 01:02:31"
+    },
+    {
+        "id": "183",
+        "customerId": "72",
+        "status": "Entregue",
+        "value": "40.66",
+        "category": "Higiene",
+        "location": "MG",
+        "createdAt": "2019-10-10 19:10:23",
+        "updatedAt": "2020-01-20 13:01:22"
+    },
+    {
+        "id": "184",
+        "customerId": "18",
+        "status": "Entregue",
+        "value": "9.60",
+        "category": "Merceria",
+        "location": "RJ",
+        "createdAt": "2019-04-04 07:04:03",
+        "updatedAt": "2020-01-24 16:01:50"
+    },
+    {
+        "id": "185",
+        "customerId": "8",
+        "status": "Entregue",
+        "value": "51.10",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-09-09 08:09:34",
+        "updatedAt": "2020-01-20 21:01:58"
+    },
+    {
+        "id": "186",
+        "customerId": "80",
+        "status": "Pendente",
+        "value": "43.10",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-03-03 22:03:34",
+        "updatedAt": "2020-01-02 16:01:09"
+    },
+    {
+        "id": "187",
+        "customerId": "43",
+        "status": "Entregue",
+        "value": "22.82",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-10-10 10:10:05",
+        "updatedAt": "2020-01-21 05:01:29"
+    },
+    {
+        "id": "188",
+        "customerId": "16",
+        "status": "Pendente",
+        "value": "23.28",
+        "category": "Bebidas",
+        "location": "RJ",
+        "createdAt": "2019-07-07 00:07:16",
+        "updatedAt": "2020-02-05 16:02:55"
+    },
+    {
+        "id": "189",
+        "customerId": "10",
+        "status": "Novo",
+        "value": "33.95",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2019-08-08 01:08:40",
+        "updatedAt": "2020-01-02 07:01:01"
+    },
+    {
+        "id": "190",
+        "customerId": "37",
+        "status": "Novo",
+        "value": "84.68",
+        "category": "Higiene",
+        "location": "RJ",
+        "createdAt": "2020-01-01 20:01:12",
+        "updatedAt": "2020-02-15 23:02:53"
+    },
+    {
+        "id": "191",
+        "customerId": "8",
+        "status": "Entregue",
+        "value": "58.34",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-12-12 04:12:05",
+        "updatedAt": "2020-01-22 13:01:49"
+    },
+    {
+        "id": "192",
+        "customerId": "70",
+        "status": "Pendente",
+        "value": "89.48",
+        "category": "Frios",
+        "location": "SP",
+        "createdAt": "2019-09-09 01:09:32",
+        "updatedAt": "2020-01-26 04:01:08"
+    },
+    {
+        "id": "193",
+        "customerId": "87",
+        "status": "Pendente",
+        "value": "4.20",
+        "category": "Higiene",
+        "location": "SP",
+        "createdAt": "2019-12-12 09:12:06",
+        "updatedAt": "2020-02-17 15:02:56"
+    },
+    {
+        "id": "194",
+        "customerId": "19",
+        "status": "Pendente",
+        "value": "33.93",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-09-09 01:09:52",
+        "updatedAt": "2020-01-08 03:01:13"
+    },
+    {
+        "id": "195",
+        "customerId": "9",
+        "status": "Novo",
+        "value": "75.55",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-08-08 19:08:39",
+        "updatedAt": "2020-01-10 09:01:37"
+    },
+    {
+        "id": "196",
+        "customerId": "62",
+        "status": "Novo",
+        "value": "75.95",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-07-07 21:07:26",
+        "updatedAt": "2020-01-20 17:01:31"
+    },
+    {
+        "id": "197",
+        "customerId": "78",
+        "status": "Pendente",
+        "value": "9.86",
+        "category": "Merceria",
+        "location": "MG",
+        "createdAt": "2019-03-03 08:03:54",
+        "updatedAt": "2020-01-18 19:01:50"
+    },
+    {
+        "id": "198",
+        "customerId": "56",
+        "status": "Novo",
+        "value": "14.41",
+        "category": "Frios",
+        "location": "MG",
+        "createdAt": "2019-09-09 16:09:12",
+        "updatedAt": "2020-01-10 10:01:14"
+    },
+    {
+        "id": "199",
+        "customerId": "99",
+        "status": "Pendente",
+        "value": "93.92",
+        "category": "Limpeza",
+        "location": "RJ",
+        "createdAt": "2019-08-08 11:08:04",
+        "updatedAt": "2020-02-01 08:02:09"
+    },
+    {
+        "id": "200",
+        "customerId": "95",
+        "status": "Pendente",
+        "value": "9.88",
+        "category": "Bebidas",
+        "location": "MG",
+        "createdAt": "2020-02-02 18:02:19",
+        "updatedAt": "2020-01-07 17:01:35"
+    }
+]
