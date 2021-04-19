@@ -1,4 +1,6 @@
-# menu-project
+# Fullstack Challenge
+
+A fullstack challenge made on weekend, as a code challenge for a company interview process.
 
 ## Stack
     - NodeJS 12
@@ -7,10 +9,10 @@
     - MySQL
     - React 16
 
-Para rodar o projeto:
+To run the project:
 ```
-git clone git@github.com:rodrigocnascimento/menu-project.git 
-cd menu-project 
+git clone git@github.com:rodrigocnascimento/fullstack-challenge.git 
+cd fullstack-challenge
 ./start.sh
 ```
 
