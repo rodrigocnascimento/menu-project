@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "backend API for menu.com.vc challenge",
+  "description": "backend API for Fullstack Challenge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rodrigocnascimento/menu-project.git"
+    "url": "git+ssh://git@github.com/rodrigocnascimento/fullstack-challenge.git"
   },
   "author": "rodrigo nascimento <rodrigoc@pm.me>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rodrigocnascimento/menu-project/issues"
+    "url": "https://github.com/rodrigocnascimento/fullstack-challenge/issues"
   },
-  "homepage": "https://github.com/rodrigocnascimento/menu-project#readme",
+  "homepage": "https://github.com/rodrigocnascimento/fullstack-challenge#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
